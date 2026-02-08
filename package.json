@@ -1,0 +1,45 @@
+{
+  "name": "task6",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/AndreevaYuliya/ReactBasics#readme",
+  "bugs": {
+    "url": "https://github.com/AndreevaYuliya/ReactBasics/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreevaYuliya/ReactBasics.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.7",
+    "@mui/material": "^7.3.7",
+    "@mui/styled-engine-sc": "^7.3.7",
+    "@mui/x-data-grid": "^8.26.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-router": "^7.12.0",
+    "styled-components": "^6.3.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.6",
+    "@babel/preset-env": "^7.28.6",
+    "@babel/preset-react": "^7.28.5",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.6",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.3"
+  }
+}
